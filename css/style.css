@@ -608,7 +608,8 @@
 .card:hover{
     -ms-transform: scale(1.1); /* IE 9 */
     -webkit-transform: scale(1.1); /* Safari 3-8 */
-    transform: scale(1.1); 
+    transform: scale(1.1);
+    background-image: ;
 }
 .img-card{
     width: 10vw;
@@ -725,7 +726,7 @@
     background: transparent;
     position: absolute;
     left: 21.1em;
-    top: 114em;
+    top: 119em;
  }
  .button-prop:hover {
      color: #009B7C !important;
@@ -747,7 +748,7 @@
     background: transparent;
     position: absolute;
     left: 69.1em;
-    top: 114em;
+    top: 119em;
  }
  .button-prop2:hover {
      color: #009B7C !important;
