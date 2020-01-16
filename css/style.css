@@ -182,9 +182,17 @@
     text-align: center;
 }
 
+.button-shopcar{
+    background: transparent;
+    width: 3vw;
+    height: 7vh;
+    margin-left: 1em;
+    border: 0em;
+}
+
 .icon-shopcar{
     width: 5vh;
-    margin-left: 3em;
+    /* margin-left: 3em; */
 }
 
 .nav-ul-li-bar{
@@ -228,11 +236,49 @@
   }
   
   .carousel-image{
+    position: relative;
     object-fit: cover;
     width: 80vw;
     height: 57vh;
-  
-  }
+    }
+
+    .h1-slider{
+        position: absolute;
+        top: 1em;
+        left: 8em;
+        color: white;
+        font-size: 3em;
+    }
+
+    .p-carousel{
+        position: absolute;
+        top: 12em;
+        left: 30em;
+        color: white;
+        font-size: 1em;
+    
+    }
+    .button-carousel {
+        /* font-family: arial; */
+         /* font-weight: bold; */
+         color: #fff !important;
+         font-size: 14px;
+         /* text-shadow: 1px 1px 0px #FFFFFF; */
+         /* box-shadow: 1px 3px 1px #FFFFFF; */
+         padding: 10px 25px;
+         -moz-border-radius: 8px;
+         -webkit-border-radius: 8px;
+         border-radius: 8px;
+         border: 2px solid #fff;
+         background: transparent;
+         position: absolute;
+         left: 37em;
+         top: 16em;
+     }
+     .button-carousel:hover {
+         color: #009B7C !important;
+         background: #FFFFFF;
+     }
   
   .carousel-track-container{
     background-color: red;
@@ -346,7 +392,7 @@
 .svg12{
     position: absolute;
     left: 3.5em;
-    top: 47em;
+    top: 45em;
 }
 
 .button-coke {
@@ -364,14 +410,12 @@
     background: transparent;
     position: absolute;
     left: 7.1em;
-    top: 61em;
+    top: 60em;
 }
 .button-coke:hover {
     color: #009B7C !important;
     background: #FFFFFF;
 }
-
-
 
 .svg2{
     position: absolute;
@@ -383,7 +427,7 @@
 .svg22{
     position: absolute;
     left: 25.2em;
-    top: 47em;
+    top: 45em;
 }
 
 .button-wewi {
@@ -402,7 +446,7 @@
     position: absolute;
     /* left: 44.1em; */
     left: 31.1em;
-    top: 61em;
+    top:60em;
 }
 .button-wewi:hover {
     color: #009B7C !important;
@@ -418,7 +462,7 @@
 .svg32{
     position: absolute;
     left: 46.2em;
-    top: 47em;
+    top: 45em;
 }
 
 .button-pickngreen {
@@ -437,7 +481,7 @@
     position: absolute;
     /* left: 44.1em; */
     left: 55.1em;
-    top: 61em;
+    top: 60em;
 }
 .button-pickngreen:hover {
     color: #009B7C !important;
@@ -456,7 +500,7 @@
 .svg42{
     position: absolute;
     left: 67.2em;
-    top: 47em;
+    top: 45em;
 }
 
 .button-racaeli {
@@ -475,7 +519,7 @@
     position: absolute;
     /* left: 44.1em; */
     left: 80.1em;
-    top: 61em;
+    top: 60em;
 }
 .button-racaeli:hover {
     color: #009B7C !important;
@@ -519,6 +563,8 @@
 .h1-main{
     color: #006953;
     font-size: 1.7em;
+    margin-left: 4em;
+    margin-top: 1em;
 }
 
 .hr-main{
@@ -654,9 +700,60 @@
 
 /* OFERTAS */
 
-.prop-container2{
-    
+.prop-box{
+    display: flex;
+    justify-content: center; 
+    /* align-items: center; */
+
 }
+.img-banner2{
+    margin: 54px 6px 37px 54px;
+    width: 44vw;
+}
+.button-prop {
+    /*font-family: arial; */
+    /* font-weight: bold; */
+    color: #fff !important;
+    font-size: 14px;
+    /* text-shadow: 1px 1px 0px #FFFFFF; */
+    /* box-shadow: 1px 3px 1px #FFFFFF; */
+    padding: 10px 25px;
+    -moz-border-radius: 8px;
+    -webkit-border-radius: 8px;
+    border-radius: 8px;
+    border: 2px solid #fff;
+    background: transparent;
+    position: absolute;
+    left: 21.1em;
+    top: 114em;
+ }
+ .button-prop:hover {
+     color: #009B7C !important;
+     background: #FFFFFF;
+}
+
+.button-prop2{
+    /*font-family: arial; */
+    /* font-weight: bold; */
+    color: #fff !important;
+    font-size: 14px;
+    /* text-shadow: 1px 1px 0px #FFFFFF; */
+    /* box-shadow: 1px 3px 1px #FFFFFF; */
+    padding: 10px 25px;
+    -moz-border-radius: 8px;
+    -webkit-border-radius: 8px;
+    border-radius: 8px;
+    border: 2px solid #fff;
+    background: transparent;
+    position: absolute;
+    left: 69.1em;
+    top: 114em;
+ }
+ .button-prop2:hover {
+     color: #009B7C !important;
+     background: #FFFFFF;
+ }
+
 
 /* SEGUNDA PARTE DA SECTION */
 .h3-class {
