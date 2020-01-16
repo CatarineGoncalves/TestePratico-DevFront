@@ -1,0 +1,96 @@
+
+.card {
+  box-shadow: 0 3px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    /* margin: auto; */
+    text-align: center;
+    width: 16vw;
+    font-family: arial;
+    height: 47vh;
+    margin-bottom: 11em;
+}
+.img-card{
+  width: 10vw;
+}
+
+.h2-class{
+  font-size: 1em;
+}
+
+.price {
+  color: grey;
+  font-size: 1.2em;
+}
+
+/* .card button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+.card button:hover {
+  opacity: 0.7;
+} */
+
+.principal-button{
+  display: flex;
+
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+	align-content: stretch;
+}
+
+.first-class {
+  box-shadow: inset 0px 1px 0px 0px #ffffff;
+  background: linear-gradient(to bottom, #ffffff 5%, #f6f6f6 100%);
+  background-color: #ffffff;
+  border-radius: 4px;
+  border: 2px solid #dcdcdc;
+  display: inline-block;
+  cursor: pointer;
+  color: #666666;
+  font-family: Arial;
+  font-size: 12px;
+  font-weight: bold;
+  padding: 11px 10px;
+  text-decoration: none;
+}
+.first-class:hover {
+	background:linear-gradient(to bottom, #f6f6f6 5%, #ffffff 100%);
+	background-color:#f6f6f6;
+}
+.first-class:active {
+	position:relative;
+	top:1px;
+}
+
+.second-class {
+  box-shadow: inset 0px 1px 0px 0px #009b7c;
+  background-color: #009b7c;
+  border-radius: 6px;
+  border: 1px solid #dcdcdc;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: Arial;
+  font-size: 12px;
+  padding: 12px 22px;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #c2c2c2;
+  margin-left: .5em;
+}
+.second-class:hover {
+	background-color:#ffffff;
+}
+.second-class:active {
+	position:relative;
+	top:1px;
+}
